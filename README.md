@@ -1,5 +1,4 @@
-# Grupo-1.9
-Agricultura Familiar
+# Grupo 9 - Agricultura Familiar
 
 1. Lucas de Medeiros Santos
 1. Fernanda Sayuri Alves Ito
