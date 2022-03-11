@@ -27,4 +27,6 @@ O Hortum Web é uma proposta de website para o aplicativo Hortum, que tem como o
 
 ----
 
+# License
 
+MIT © Hortum-Web. Para demais informações acesse nossa [LICENSE](./LICENSE).
