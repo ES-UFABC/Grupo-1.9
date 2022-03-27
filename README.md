@@ -10,7 +10,7 @@
 <!-- Descrição sobre o Projeto -->
 ## Sobre o Projeto
 
-<p align="justify">&emsp; &emsp; O projeto Hortum-web é basiado no aplicativo Hortum, que busca <strong> promover </strong> ea integração dos agricultores familiares com os consumidores de forma simples. A nossa versão web será ainda mais <strong> democrática </strong>, <strong> acessível </strong> e <strong> intuitiva </strong>. Os produtores e consumidores poderão se comunicar de forma fácil, agora em uma nova plataforma. </p>
+<p align="justify">&emsp; &emsp; O projeto Hortum-web é baseado no aplicativo Hortum, que busca <strong> promover </strong> ea integração dos agricultores familiares com os consumidores de forma simples. A nossa versão web será ainda mais <strong> democrática </strong>, <strong> acessível </strong> e <strong> intuitiva </strong>. Os produtores e consumidores poderão se comunicar de forma fácil, agora em uma nova plataforma. </p>
 
 
 <!-- Funcionalidades Principais -->
