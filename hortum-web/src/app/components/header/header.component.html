@@ -1,1 +1,27 @@
-<p>header works!</p>
+<mat-toolbar class="header">
+    <span class="logo">
+        <a routerLink="/pagamentos">
+            <img src="assets/logo.png" class="imgHeader" alt="logo"/>
+        </a>
+    </span>
+
+    <span >
+        <a routerLink="/pagamentos" [matMenuTriggerFor]="menu">
+            <mat-icon>person</mat-icon>
+            <!-- <img src="assets/profile.png" class="profile" alt="profile"/> -->
+        </a>
+    </span>
+
+    <mat-menu #menu="matMenu">
+        <a routerLink="/perfil" mat-menu-item>
+            <mat-icon>person</mat-icon>
+            <span>Seu perfil</span>
+        </a>
+        <a mat-menu-item routerLink="/">
+            <mat-icon>exit_to_app</mat-icon>
+            <span>Sair</span>
+        </a>
+    </mat-menu>
+</mat-toolbar>
+
+

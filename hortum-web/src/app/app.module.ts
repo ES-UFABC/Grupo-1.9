@@ -22,10 +22,11 @@ import { AppRoutingModule } from './app-routing.modules';
 import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProfileComponent } from './views/profile/profile.component';
 
 @NgModule({
   declarations: [	
-    AppComponent, LoginComponent, HomeComponent, HeaderComponent, FooterComponent,
+    AppComponent, LoginComponent, HomeComponent, HeaderComponent, FooterComponent, ProfileComponent,
    ],
   imports: [
     BrowserModule,
@@ -44,8 +45,7 @@ import { FooterComponent } from './components/footer/footer.component';
     MatSortModule,
     MatMenuModule,
     MatIconModule,
-    AppRoutingModule,
-    MatFormFieldModule 
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
