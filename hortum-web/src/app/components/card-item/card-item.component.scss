@@ -1,0 +1,22 @@
+.example-card {
+    max-width: 200px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+.card__info{
+    display: inline-flex;
+    margin-top: 20px;
+    p{
+        margin-left: 15px;
+        margin-bottom: 0;
+    }
+}
+.card__price{
+    float: right;
+}
+  

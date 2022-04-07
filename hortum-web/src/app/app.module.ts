@@ -23,10 +23,13 @@ import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProfileComponent } from './views/profile/profile.component';
+import { CardItemComponent } from './components/card-item/card-item.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import {MatNativeDateModule} from '@angular/material/core';
 
 @NgModule({
   declarations: [	
-    AppComponent, LoginComponent, HomeComponent, HeaderComponent, FooterComponent, ProfileComponent,
+    AppComponent, LoginComponent, HomeComponent, HeaderComponent, FooterComponent, ProfileComponent, CardItemComponent,
    ],
   imports: [
     BrowserModule,
@@ -45,7 +48,9 @@ import { ProfileComponent } from './views/profile/profile.component';
     MatSortModule,
     MatMenuModule,
     MatIconModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatNativeDateModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
