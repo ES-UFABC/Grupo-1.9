@@ -1,14 +1,19 @@
 {
-  "name": "picpay-desafio-frontend",
+  "name": "hortum-web",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
+    "postinstall": "ng build --aot --prod",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "api": "json-server --watch db.json"
+  },
+  "engines": {
+    "node": "12.14.1",
+    "npm": "6.4.1"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +27,7 @@
     "@angular/platform-browser": "~12.1.4",
     "@angular/platform-browser-dynamic": "~12.1.4",
     "@angular/router": "~12.1.4",
+    "express": "^4.17.3",
     "rxjs": "~6.6.7",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
