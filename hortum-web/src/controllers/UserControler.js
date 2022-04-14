@@ -3,7 +3,7 @@ const User = require('../models/Users');
 
 module.exports = {
     async store(req, res){
-        const {name, email, image} = req.body;
+        const {name, email, image, password} = req.body;
         // const userExists = await User.findOne({ name: name});
 
         // if(userExists){
@@ -12,9 +12,10 @@ module.exports = {
         await User.create({
             name,
             email, 
-            image
+            image,
+            password
         })
-        return res.json({"Usuario": name, "Email": email, "imagem": image});
+        return res.json({"Usuario": name, "Email": email, "password": image});
     }
 }
 

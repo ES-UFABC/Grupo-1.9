@@ -4,18 +4,30 @@ const productConn = mongoose.createConnection('mongodb://Hortum_admin:'+ process
   useNewUrlParser: true});
 
 const ProductSchema = new Schema({
-    name: {
+    title: {
         type: String,
         required: true,
     },
-    description: {
+    producer: {
         type: String,
         required: true,
+    },
+    value:{
+        type: Number,
+        required: true
     },
     image:{
         type: String,
         required: true
     },
+    location:{
+        type: String,
+        required: true
+    },
+    favorite:  {
+        type: Number,
+        required: true
+    }
 },{
     timestamp: true,
 });
