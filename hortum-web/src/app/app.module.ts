@@ -26,10 +26,11 @@ import { ProfileComponent } from './views/profile/profile.component';
 import { CardItemComponent } from './components/card-item/card-item.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {MatNativeDateModule} from '@angular/material/core';
+import { MyProfileComponent } from './components/profile/my-profile/my-profile.component';
 
 @NgModule({
   declarations: [	
-    AppComponent, LoginComponent, HomeComponent, HeaderComponent, FooterComponent, ProfileComponent, CardItemComponent,
+    AppComponent, LoginComponent, HomeComponent, HeaderComponent, FooterComponent, ProfileComponent, CardItemComponent, MyProfileComponent,
    ],
   imports: [
     BrowserModule,
