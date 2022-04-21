@@ -27,10 +27,12 @@ A plataforma tem como objetivo ser prática e acessível. Assim, ela contará co
 
 <!-- Back-end -->
 ### Back-end
-
+	O Back-end está sendo desenvolvido em NodeJS integrado ao banco de dados não relacional MongoDB. 
+	
 <!-- Front-end -->
 ### Front-end
-
+	O Front-end do sistema está sendo desenvolvido em Angular e consiste em página de login, cadastro do usuário, cadastro de produtos e feed com diversas visualizações em uma versão web.
+	
 <!-- Contributing -->
 ## Desenvolvedores
 
