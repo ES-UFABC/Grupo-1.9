@@ -16,6 +16,16 @@ module.exports = {
             password
         })
         return res.json({"Usuario": name, "Email": email, "password": image});
+    },
+    async find(req,res){
+        //const {name, email, image, password} = req.body;
+        User.find((err, user) => {
+            // Note that this error doesn't mean nothing was found,
+            // it means the database had an error while searching, hence the 500 status
+            if (err) return res.status(500).send(err)
+            // send the list of all people
+            return res.status(200).send(user);
+        });
+        
     }
 }
-
