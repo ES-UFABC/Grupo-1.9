@@ -1,20 +1,22 @@
-<mat-card class="example-card mat-elevation-z4" *ngFor="let item of items">
-    <img mat-card-image src="{{item.image}}">
-    <mat-card-content>
-        <mat-card-title>{{item.title}}</mat-card-title>
-        <p><mat-icon>person</mat-icon>{{item.location}}</p>
-        <p class="card__price"><strong>R${{item.value}}</strong></p>
-    </mat-card-content>
-    <div class="card__info">
-        <div mat-card-avatar class="example-header-image"></div>
-        <div>
-            <p>{{item.producer}}</p>
-            <p>{{item.phone}}</p>
+<div *ngFor="let producer of producers">
+    <mat-card class="example-card mat-elevation-z4" *ngFor="let item of producer.items">
+        <img mat-card-image src="{{item.image}}">
+        <mat-card-content>
+            <mat-card-title>{{item.title}}</mat-card-title>
+            <p><mat-icon>person</mat-icon>{{producer.location}}</p>
+            <p class="card__price"><strong>R${{item.value}}</strong></p>
+        </mat-card-content>
+        <div class="card__info">
+            <div mat-card-avatar class="example-header-image"></div>
+            <div>
+                <p>{{producer.name}}</p>
+                <p>{{producer.phone}}</p>
+            </div>
         </div>
-    </div>
-    <mat-card-actions>
-      <button mat-button><mat-icon>star</mat-icon></button>
-      <button mat-button>SHARE</button>
-    </mat-card-actions>
-</mat-card>
+        <mat-card-actions>
+          <button mat-button><mat-icon>star</mat-icon></button>
+          <button mat-button>SHARE</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
   

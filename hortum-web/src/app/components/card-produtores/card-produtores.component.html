@@ -1,14 +1,14 @@
-<mat-card class="example-card mat-elevation-z4" *ngFor="let item of items">
-    <img mat-card-image src="{{item.image}}">
+<mat-card class="example-card mat-elevation-z4" *ngFor="let producer of producers">
+    <img mat-card-image src="{{producer.image}}">
     <mat-card-content>
-        <mat-card-title>{{item.producer}}</mat-card-title>
-        <p><mat-icon>person</mat-icon>{{item.location}}</p>
+        <mat-card-title>{{producer.name}}</mat-card-title>
+        <p><mat-icon>person</mat-icon>{{producer.location}}</p>
     </mat-card-content>
     <div class="card__info">
         <div mat-card-avatar class="example-header-image"></div>
         <div>
-            <p>{{item.producer}}</p>
-            <p>{{item.phone}}</p>
+            <p>{{producer.producer}}</p>
+            <p>{{producer.phone}}</p>
         </div>
     </div>
     <mat-card-actions>

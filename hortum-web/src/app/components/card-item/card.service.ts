@@ -4,14 +4,15 @@
   import { MatSnackBar } from '@angular/material/snack-bar';
  import { EMPTY, Observable } from 'rxjs';
  import { catchError, map } from 'rxjs/operators';
-import { Item } from './item.model';
+// import { Item } from './item.model';
+import { Producer } from './producer.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CardService {
 
-  baseUrl = 'http://localhost:3000/items';
+  baseUrl = 'http://localhost:3000/producers';
 
   constructor(
     private snackBar: MatSnackBar, 
@@ -26,8 +27,8 @@ export class CardService {
     })
   }
 
-  create(item: Item): Observable<Item>{
-    return this.http.post<Item>(this.baseUrl, item).pipe(
+  create(producer: Producer): Observable<Producer>{
+    return this.http.post<Producer>(this.baseUrl, producer).pipe(
       map(obj => obj),
       catchError(e => this.errorHandler(e))
     );
@@ -38,22 +39,22 @@ export class CardService {
     return EMPTY
   }
 
-  read(): Observable<Item[]>{
-    return this.http.get<Item[]>(this.baseUrl);
+  read(): Observable<Producer[]>{
+    return this.http.get<Producer[]>(this.baseUrl);
   }
 
-  readById(id: number): Observable<Item>{
+  readById(id: number): Observable<Producer>{
     const url = `${this.baseUrl}/${id}`
-    return this.http.get<Item>(url);
+    return this.http.get<Producer>(url);
   }
 
-  update(item: Item): Observable<Item>{
-    const url = `${this.baseUrl}/${item.id}`
-    return this.http.put<Item>(url, item);
+  update(producer: Producer): Observable<Producer>{
+    const url = `${this.baseUrl}/${producer.id}`
+    return this.http.put<Producer>(url, producer);
   }
 
-  delete(id: number): Observable<Item>{
+  delete(id: number): Observable<Producer>{
     const url = `${this.baseUrl}/${id}`
-    return this.http.delete<Item>(url);
+    return this.http.delete<Producer>(url);
   }
 }

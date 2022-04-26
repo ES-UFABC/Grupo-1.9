@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CardService } from '../card-item/card.service';
 import { Item } from '../card-item/item.model';
+import { Producer } from '../card-item/producer.model';
 
 @Component({
   selector: 'app-card-produtores',
@@ -8,7 +9,7 @@ import { Item } from '../card-item/item.model';
   styleUrls: ['./card-produtores.component.scss']
 })
 export class CardProdutoresComponent implements OnInit {
-  items: Item[]
+  producers: Producer[];
   constructor(
     private cardService: CardService
   ) { }
@@ -18,9 +19,9 @@ export class CardProdutoresComponent implements OnInit {
   }
 
   read(){
-    this.cardService.read().subscribe(items => {
-      this.items = items;
-      console.log(items)
+    this.cardService.read().subscribe(producers => {
+      this.producers = producers;
+      console.log(producers)
     });
   }
 }
