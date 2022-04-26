@@ -1,9 +1,21 @@
 <mat-toolbar class="header">
-    <span class="logo">
-        <a routerLink="/home">
-            <img src="assets/logo.png" class="imgHeader" alt="logo"/>
-        </a>
-    </span>
+    <div class="logo">
+        <span>
+            <a routerLink="/home">
+                <img src="assets/logo.png" class="imgHeader" alt="logo"/>
+            </a>
+        </span>
+        <span class="itemMenu">
+            <a routerLink="/home">
+                Produtos
+            </a>
+        </span>
+        <span class="itemMenu">
+            <a routerLink="/produtores">
+                Produtores
+            </a>
+        </span>
+    </div>
 
     <span >
         <a routerLink="/home" [matMenuTriggerFor]="menu">

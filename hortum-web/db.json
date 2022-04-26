@@ -4,6 +4,8 @@
           "id": 1,
           "title": "Banana Nanica",
           "producer": "Fernanda",
+          "phone": "(11) 93006-3158",
+          "email": "f.sayuri@outlook.com",
           "value": 19.96,
           "date": "2020-07-21T05:53:20Z",
           "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
@@ -13,6 +15,8 @@
           "id": 2,
           "title": "Banana Nanica",
           "producer": "Fernanda",
+          "phone": "(11) 93006-3158",
+          "email": "f.sayuri@outlook.com",
           "value": 19.96,
           "date": "2020-07-21T05:53:20Z",
           "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
@@ -22,6 +26,8 @@
           "id": 3,
           "title": "Banana Nanica",
           "producer": "Fernanda",
+          "phone": "(11) 93006-3158",
+          "email": "f.sayuri@outlook.com",
           "value": 19.96,
           "date": "2020-07-21T05:53:20Z",
           "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
@@ -30,7 +36,9 @@
       {
           "id": 4,
           "title": "Banana Nanica",
-          "producer": "Fernanda",
+          "producer": "Nat",
+          "phone": "(11) 93006-3158",
+          "email": "f.sayuri@outlook.com",
           "value": 19.96,
           "date": "2020-07-21T05:53:20Z",
           "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
@@ -39,7 +47,9 @@
       {
           "id": 5,
           "title": "Banana Nanica",
-          "producer": "Fernanda",
+          "producer": "Nat",
+          "phone": "(11) 93006-3158",
+          "email": "f.sayuri@outlook.com",
           "value": 19.96,
           "date": "2020-07-21T05:53:20Z",
           "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
@@ -52,6 +62,53 @@
         "name": "usuario",
         "email": "usuario@gmail.com",
         "password": "usuario"
+      }
+    ],
+    "producers": [
+      {
+        "id": 1,
+        "name": "Nat",
+        "phone": "(11) 93006-3158",
+        "email": "f.sayuri@outlook.com",
+        "date": "2020-07-21T05:53:20Z",
+        "items":[
+          {
+            "title": "Banana Nanica 1",
+            "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
+            "value": 19.96
+          },
+          {
+            "title": "Banana Nanica 2",
+            "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
+            "value": 19.96
+          },
+          {
+            "title": "Banana Nanica 3",
+            "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
+            "value": 19.96
+          }
+        ],
+        "location": "Santo André - SP"
+      },
+      {
+        "id": 2,
+        "name": "Fer",
+        "phone": "(11) 93006-3158",
+        "email": "f.sayuri@outlook.com",
+        "date": "2020-07-21T05:53:20Z",
+        "items":[
+          {
+            "title": "Banana Nanica 4",
+            "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
+            "value": 19.96
+          },
+          {
+            "title": "Banana Nanica 5",
+            "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
+            "value": 19.96
+          }
+        ],
+        "location": "São Paulo - SP"
       }
     ]
   }

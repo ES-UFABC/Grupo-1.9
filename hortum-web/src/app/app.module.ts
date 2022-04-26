@@ -27,10 +27,12 @@ import { CardItemComponent } from './components/card-item/card-item.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {MatNativeDateModule} from '@angular/material/core';
 import { MyProfileComponent } from './components/profile/my-profile/my-profile.component';
+import { ProducersComponent } from './views/producers/producers.component';
+import { CardProdutoresComponent } from './components/card-produtores/card-produtores.component';
 
 @NgModule({
   declarations: [	
-    AppComponent, LoginComponent, HomeComponent, HeaderComponent, FooterComponent, ProfileComponent, CardItemComponent, MyProfileComponent,
+    AppComponent, LoginComponent, HomeComponent, HeaderComponent, FooterComponent, ProfileComponent, CardItemComponent, MyProfileComponent, ProducersComponent, CardProdutoresComponent,
    ],
   imports: [
     BrowserModule,
