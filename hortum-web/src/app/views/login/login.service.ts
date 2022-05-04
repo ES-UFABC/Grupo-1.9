@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Observable } from 'rxjs';
+import { catchError, map } from 'rxjs/operators';
 import { User } from './user.model';
 
 @Injectable({
@@ -25,5 +26,15 @@ export class LoginService {
   getAccount(): Observable<User>{
     const url = `${this.baseUrl}`
     return this.http.get<User>(url);
+  }
+
+  newAccount(user: User): Observable<User>{
+    return this.http.post<User>(this.baseUrl, user).pipe(
+      map(obj => obj),
+      catchError(e => this.errorHandler(e))
+    );
+  }
+  errorHandler(e: any): any {
+    throw new Error('Method not implemented.');
   }
 }

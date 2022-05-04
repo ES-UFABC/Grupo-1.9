@@ -4,6 +4,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { HomeComponent } from './views/home/home.component';
 import { ProfileComponent } from './views/profile/profile.component';
 import { ProducersComponent } from './views/producers/producers.component';
+import { CadastrarComponent } from './views/cadastrar/cadastrar.component';
 
 const routes: Routes = [
     {
@@ -21,6 +22,10 @@ const routes: Routes = [
     {
         path: "produtores",
         component: ProducersComponent
+    },
+    {
+        path: "cadastro",
+        component: CadastrarComponent
     }
 ];
 

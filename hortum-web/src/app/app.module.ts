@@ -29,10 +29,11 @@ import {MatNativeDateModule} from '@angular/material/core';
 import { MyProfileComponent } from './components/profile/my-profile/my-profile.component';
 import { ProducersComponent } from './views/producers/producers.component';
 import { CardProdutoresComponent } from './components/card-produtores/card-produtores.component';
+import { CadastrarComponent } from './views/cadastrar/cadastrar.component';
 
 @NgModule({
   declarations: [	
-    AppComponent, LoginComponent, HomeComponent, HeaderComponent, FooterComponent, ProfileComponent, CardItemComponent, MyProfileComponent, ProducersComponent, CardProdutoresComponent,
+    AppComponent, LoginComponent, HomeComponent, HeaderComponent, FooterComponent, ProfileComponent, CardItemComponent, MyProfileComponent, ProducersComponent, CardProdutoresComponent, CadastrarComponent,
    ],
   imports: [
     BrowserModule,

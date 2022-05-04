@@ -1,0 +1,38 @@
+<div class="content">
+    <div class="formLogin">
+        <mat-card-title class="titleForm">Criar nova conta</mat-card-title>
+        <form>
+            <mat-form-field>
+                <input matInput placeholder="Nome Completo" [(ngModel)]="user.name" name="name" mat-error required>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Telefone" [(ngModel)]="user.phone" name="phone" mat-error required>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Cidade" [(ngModel)]="user.location" name="location" mat-error required>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Email" [(ngModel)]="user.email" name="email" mat-error required>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput type="password" [(ngModel)]="user.password" [type]="hide ? 'password' : 'text' " placeholder="Senha" name="password" mat-error required>
+                <i class="material-icons" matSuffix (click)="hide = !hide" >{{hide ? 'visibility' : 'visibility_off'}}</i>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput type="password" [type]="hide ? 'password' : 'text' " placeholder="Confirmar senha" name="confirmPassword" mat-error required>
+                <i class="material-icons" matSuffix (click)="hide = !hide" >{{hide ? 'visibility' : 'visibility_off'}}</i>
+            </mat-form-field>
+        </form>
+        
+        <div mat-dialog-actions>
+            <button mat-button (click)="createAccount()" class="buttonPayment">Criar</button>
+        </div>
+        <div mat-dialog-actions>
+            <button mat-button routerLink="/" class="buttonCadastrar">Entrar em uma conta existente</button>
+        </div>
+    </div>
+    <div class="boxImg">
+        <img src="./../../../assets/logo.png" class="imgLogin" alt="logo"/>
+    </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,114 +1,105 @@
 {
-    "items": [
-      {
-          "id": 1,
-          "title": "Banana Nanica",
-          "producer": "Fernanda",
-          "phone": "(11) 93006-3158",
-          "email": "f.sayuri@outlook.com",
-          "value": 19.96,
-          "date": "2020-07-21T05:53:20Z",
+  "account": [
+    {
+      "id": 0,
+      "name": "usuario",
+      "email": "usuario@gmail.com",
+      "password": "usuario"
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "2312",
+      "phone": null,
+      "location": "",
+      "id": 1
+    },
+    {
+      "name": "Fefe",
+      "email": "fe@fe",
+      "password": "23892",
+      "phone": "11 930063158",
+      "location": "São Paulo",
+      "id": 2
+    },
+    {
+      "name": "Fernanda fe",
+      "email": "Fe!2@fsf",
+      "password": "24234",
+      "phone": "1231321",
+      "location": "SP",
+      "id": 3
+    },
+    {
+      "name": "Fernanda",
+      "email": "fe@sdf",
+      "password": "213",
+      "phone": "2313",
+      "location": "sijd",
+      "id": 4
+    },
+    {
+      "name": "Fernanda",
+      "email": "usuario@gmail.com",
+      "password": "frfe",
+      "phone": "2313",
+      "location": "sijd",
+      "id": 5
+    },
+    {
+      "name": "Fernanda",
+      "email": "f.sayuri@outlook.com",
+      "password": "dfef",
+      "phone": "2313",
+      "location": "sijd",
+      "id": 6
+    }
+  ],
+  "producers": [
+    {
+      "id": 1,
+      "name": "Nat",
+      "phone": "(11) 93006-3158",
+      "email": "f.sayuri@outlook.com",
+      "date": "2020-07-21T05:53:20Z",
+      "items": [
+        {
+          "title": "Banana Nanica 1",
           "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
-          "location": "São Paulo - SP"
-      },
-      {
-          "id": 2,
-          "title": "Banana Nanica",
-          "producer": "Fernanda",
-          "phone": "(11) 93006-3158",
-          "email": "f.sayuri@outlook.com",
-          "value": 19.96,
-          "date": "2020-07-21T05:53:20Z",
+          "value": 19.96
+        },
+        {
+          "title": "Banana Nanica 2",
           "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
-          "location": "São Paulo - SP"
-      },
-      {
-          "id": 3,
-          "title": "Banana Nanica",
-          "producer": "Fernanda",
-          "phone": "(11) 93006-3158",
-          "email": "f.sayuri@outlook.com",
-          "value": 19.96,
-          "date": "2020-07-21T05:53:20Z",
+          "value": 19.96
+        },
+        {
+          "title": "Banana Nanica 3",
           "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
-          "location": "São Paulo - SP"
-      },
-      {
-          "id": 4,
-          "title": "Banana Nanica",
-          "producer": "Nat",
-          "phone": "(11) 93006-3158",
-          "email": "f.sayuri@outlook.com",
-          "value": 19.96,
-          "date": "2020-07-21T05:53:20Z",
+          "value": 19.96
+        }
+      ],
+      "location": "Santo André - SP"
+    },
+    {
+      "id": 2,
+      "name": "Fer",
+      "phone": "(11) 93006-3158",
+      "email": "f.sayuri@outlook.com",
+      "date": "2020-07-21T05:53:20Z",
+      "items": [
+        {
+          "title": "Banana Nanica 4",
           "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
-          "location": "São Paulo - SP"
-      },
-      {
-          "id": 5,
-          "title": "Banana Nanica",
-          "producer": "Nat",
-          "phone": "(11) 93006-3158",
-          "email": "f.sayuri@outlook.com",
-          "value": 19.96,
-          "date": "2020-07-21T05:53:20Z",
+          "value": 19.96
+        },
+        {
+          "title": "Banana Nanica 5",
           "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
-          "location": "São Paulo - SP"
-      }
-    ],
-    "account": [
-      {
-        "id": 0,
-        "name": "usuario",
-        "email": "usuario@gmail.com",
-        "password": "usuario"
-      }
-    ],
-    "producers": [
-      {
-        "id": 1,
-        "name": "Nat",
-        "phone": "(11) 93006-3158",
-        "email": "f.sayuri@outlook.com",
-        "date": "2020-07-21T05:53:20Z",
-        "items":[
-          {
-            "title": "Banana Nanica 1",
-            "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
-            "value": 19.96
-          },
-          {
-            "title": "Banana Nanica 2",
-            "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
-            "value": 19.96
-          },
-          {
-            "title": "Banana Nanica 3",
-            "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
-            "value": 19.96
-          }
-        ],
-        "location": "Santo André - SP"
-      },
-      {
-        "id": 2,
-        "name": "Fer",
-        "phone": "(11) 93006-3158",
-        "email": "f.sayuri@outlook.com",
-        "date": "2020-07-21T05:53:20Z",
-        "items":[
-          {
-            "title": "Banana Nanica 4",
-            "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
-            "value": 19.96
-          },
-          {
-            "title": "Banana Nanica 5",
-            "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/746/397/products/banana_caturra1-7e2b9a3f6b39b3309915220270001382-1024-1024.jpg",
-            "value": 19.96
-          }
-        ],
-        "location": "São Paulo - SP"
-      }
-    ]
-  }
+          "value": 19.96
+        }
+      ],
+      "location": "São Paulo - SP"
+    }
+  ]
+}
