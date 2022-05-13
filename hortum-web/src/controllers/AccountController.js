@@ -1,31 +1,26 @@
 const axios = require('axios');
-const User = require('../models/Users');
+const Account = require('../models/Account');
 
 module.exports = {
     async store(req, res){
-        const {name, email, image, password, items} = req.body;
-        // const userExists = await User.findOne({ name: name});
-
-        // if(userExists){
-        //     return res.json(userExists);
-        // }
-        await User.create({
+        const {name, email, password, phone,location} = req.body;
+        await Account.create({
             name,
             email, 
-            image,
             password,
-            items
+            phone,
+            location
         })
-        return res.json({"Usuario": name, "Email": email, "password": image, "items": items});
+        return res.json({"Usuario": name, "Email": email, "password": password, "phone": phone, "location": location});
     },
     async find(req,res){
         //const {name, email, image, password} = req.body;
-        User.find((err, user) => {
+        Account.find((err, account) => {
             // Note that this error doesn't mean nothing was found,
             // it means the database had an error while searching, hence the 500 status
             if (err) return res.status(500).send(err)
             // send the list of all people
-            return res.status(200).send(user);
+            return res.status(200).send(account);
         });
         
     }
